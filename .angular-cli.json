@@ -21,7 +21,11 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/S5/s5.js",
+        "../node_modules/S5/s5.icons.js",
+        "../node_modules/S5/s5.autocomplete.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
